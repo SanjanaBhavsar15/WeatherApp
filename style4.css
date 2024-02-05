@@ -1,0 +1,39 @@
+/* input{border-radius: 3px; 
+    border: 1px solid black; 
+    height:100; 
+    width: 500; 
+    text-align: center;
+}
+label{ align-items: center; padding: 10px; border-spacing: 5px; margin-bottom: 8px;} */
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+#maindiv{
+    background-image: url(cloud1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid grey;
+    border-radius: 3%;
+    padding: 10px;
+    font-size: 23px;
+    align-items: center;
+    width: 340px;
+}  
